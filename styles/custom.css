@@ -1,0 +1,79 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f6; /* Light gray background */
+    color: #262730; /* Dark gray text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #4CAF50; /* Green color for headings */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Sidebar Styling */
+.stSidebar {
+    background-color: #ffffff; /* White sidebar background */
+    border-right: 2px solid #4CAF50; /* Green border */
+    padding: 10px;
+}
+
+/* Buttons Styling */
+div.stButton > button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+div.stButton > button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* File Uploader Styling */
+.css-1y8p8g8 {
+    border: 2px dashed #4CAF50;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* DataFrame Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+table thead tr {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
